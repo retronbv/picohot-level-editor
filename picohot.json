@@ -1,181 +1,181 @@
 [
-    {
-        "name":"wait",
-        "format":"w:{x}",
-        "args":{
-            "x": {
-                "desc": "Time to wait",
-                "type": "number",
-				"default": 0
-            }
-        }
-    },
-    {
-        "name":"display text",
-        "format":"t:{x}:{y}",
-        "args":{
-            "x": {
-                "desc": "Text to display",
-                "type": "text"
-            },
-            "y": {
-                "desc": "Time to delay after message",
-                "type": "number",
-				"default": 0.3
-            }
-        }
-    },
-    {
-        "name":"start level",
-        "format":"wd",
-        "args":{}
-    },
-    {
-        "name":"wait until all enemies are dead",
-        "format":"cb",
-        "args":{}
-    },
-    {
-        "name":"spawn item",
-        "format":"i:{x}:{z}:{i}:{y}",
-        "args":{
-            "x": {
-                "desc": "X coord",
-                "type": "number",
-				"default": 0
-            },
-            "z": {
-                "desc": "Z coord",
-                "type": "number",
-				"default": 0
-            },
-            "i": {
-                "desc": "Item to spawn",
-                "type": "item"
-            },
-            "y": {
-                "desc": "Y coord",
-                "type": "number",
-				"default": 0
-            }
-        }
-    },
-    {
-        "name":"spawn enemy",
-        "format":"e:{x}:{z}:{e}:{y}",
-        "args":{
-            "x": {
-                "desc": "X coord",
-                "type": "number",
-				"default": 0
-            },
-            "z": {
-                "desc": "Z coord",
-                "type": "number",
-				"default": 0
-            },
-            "e": {
-                "desc": "Enemy to spawn",
-                "type": "enemy"
-            },
-            "y": {
-                "desc": "Y coord",
-                "type": "number",
-				"default": 0
-            }
-        }
-    },
-    {
-        "name":"destroy glass pane",
-        "format":"des_pn:{x}",
-        "args":{
-            "x": {
-                "desc": "ID of pane to destroy",
-                "type": "number",
-				"default": 0
-            }
-        }
-    },
-    {
-        "name":"finish level (wait for enemies to die)",
-        "format":"fin",
-        "args":{}
-    },
-    {
-        "name":"load level",
-        "format":"lvl:{x}",
-        "args":{
-            "x": {
-                "desc": "ID of level to load",
-                "type": "number",
-				"default": 0
-            }
-        }
-    },
-    {
-        "name":"start endless",
-        "format":"endl",
-        "args":{}
-    },
-    {
-        "name":"set save progress",
-        "format":"prg:{x}",
-        "args":{
-            "x": {
-                "desc": "ID of level to set save to",
-                "type": "number",
-				"default": 0
-            }
-        }
-    },
-    {
-        "name":"red blink glitch",
-        "format":"br",
-        "args":{}
-    },
-    {
-        "name":"display picOS message",
-        "format":"m:{x}",
-        "args":{
-            "x": {
-                "desc": "Message to display",
-                "type": "text"
-            }
-        }
-    },
-    {
-        "name":"load picOS",
-        "format":"os",
-        "args":{}
-    },
-    {
-        "name":"spawn prop",
-        "format":"p:{x}:{y}:{z}:{p}",
-        "args":{
-            "x": {
-                "desc": "X coord",
-                "type": "number",
-				"default": 0
-            },
-            "y": {
-                "desc": "Y coord",
-                "type": "number",
-				"default": 0
-            },
-            "z": {
-                "desc": "Z coord",
-                "type": "number",
-				"default": 0
-            },
-            "p": {
-                "desc": "Prop to spawn",
-                "type": "prop"
-            }
-        }
-    },
-    {
-        "name":"load credits",
-        "format":"crd",
-        "args":{}
+  {
+    "name": "wait",
+    "format": "w:{x}",
+    "args": {
+      "x": {
+        "desc": "Time to wait",
+        "type": "number",
+        "default": 0
+      }
     }
+  },
+  {
+    "name": "display text",
+    "format": "t:{x}:{y}",
+    "args": {
+      "x": {
+        "desc": "Text to display",
+        "type": "text"
+      },
+      "y": {
+        "desc": "Time to delay after message",
+        "type": "number",
+        "default": 0.3
+      }
+    }
+  },
+  {
+    "name": "start level",
+    "format": "wd",
+    "args": {}
+  },
+  {
+    "name": "wait until all enemies are dead",
+    "format": "cb",
+    "args": {}
+  },
+  {
+    "name": "spawn item",
+    "format": "i:{x}:{z}:{i}:{y}",
+    "args": {
+      "x": {
+        "desc": "X coord",
+        "type": "number",
+        "default": 0
+      },
+      "z": {
+        "desc": "Z coord",
+        "type": "number",
+        "default": 0
+      },
+      "i": {
+        "desc": "Item to spawn",
+        "type": "item"
+      },
+      "y": {
+        "desc": "Y coord",
+        "type": "number",
+        "default": 0
+      }
+    }
+  },
+  {
+    "name": "spawn enemy",
+    "format": "e:{x}:{z}:{e}:{y}",
+    "args": {
+      "x": {
+        "desc": "X coord",
+        "type": "number",
+        "default": 0
+      },
+      "z": {
+        "desc": "Z coord",
+        "type": "number",
+        "default": 0
+      },
+      "e": {
+        "desc": "Enemy to spawn",
+        "type": "enemy"
+      },
+      "y": {
+        "desc": "Y coord",
+        "type": "number",
+        "default": 0
+      }
+    }
+  },
+  {
+    "name": "destroy glass pane",
+    "format": "des_pn:{x}",
+    "args": {
+      "x": {
+        "desc": "ID of pane to destroy",
+        "type": "number",
+        "default": 0
+      }
+    }
+  },
+  {
+    "name": "finish level (wait for enemies to die)",
+    "format": "fin",
+    "args": {}
+  },
+  {
+    "name": "load level",
+    "format": "lvl:{x}",
+    "args": {
+      "x": {
+        "desc": "ID of level to load",
+        "type": "number",
+        "default": 0
+      }
+    }
+  },
+  {
+    "name": "start endless",
+    "format": "endl",
+    "args": {}
+  },
+  {
+    "name": "set save progress",
+    "format": "prg:{x}",
+    "args": {
+      "x": {
+        "desc": "ID of level to set save to",
+        "type": "number",
+        "default": 0
+      }
+    }
+  },
+  {
+    "name": "red blink glitch",
+    "format": "br",
+    "args": {}
+  },
+  {
+    "name": "display picOS message",
+    "format": "m:{x}",
+    "args": {
+      "x": {
+        "desc": "Message to display",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "name": "load picOS",
+    "format": "os",
+    "args": {}
+  },
+  {
+    "name": "spawn prop",
+    "format": "p:{x}:{y}:{z}:{p}",
+    "args": {
+      "x": {
+        "desc": "X coord",
+        "type": "number",
+        "default": 0
+      },
+      "y": {
+        "desc": "Y coord",
+        "type": "number",
+        "default": 0
+      },
+      "z": {
+        "desc": "Z coord",
+        "type": "number",
+        "default": 0
+      },
+      "p": {
+        "desc": "Prop to spawn",
+        "type": "prop"
+      }
+    }
+  },
+  {
+    "name": "load credits",
+    "format": "crd",
+    "args": {}
+  }
 ]
